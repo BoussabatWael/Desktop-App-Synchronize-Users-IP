@@ -735,12 +735,6 @@ class Window1:
         #### get and check inputs of login form ####
         if self.T1.get()!="Enter username" and self.T1.get()!="" and self.T2.get()!="Enter password" and self.T2.get()!="" :
             try:
-                #### Databse credentials ####
-                #host = '45.76.121.27'
-                #DATABASE = "firewall_module"
-                #DB_USER = "admin"
-                #DB_PASSWORD = "Admin@2022"
-
                 host = 'localhost'   
                 DATABASE = "firewall_module"
                 DB_USER = "root"
