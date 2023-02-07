@@ -6,7 +6,7 @@ if NOT, the application will call the firewall script using the middleware, then
 operating systems and their system versions, if OS is supported then it will execute commands to synchronize user new IP address.
 
 # Sync.py 
-is the main fire of the application.
+is the main file of the application.
 # firewall.py 
 is the script that manage and sercure servers it contains all functions that can be executed on server
 # networking.php 
