@@ -10,7 +10,6 @@ $_POST = json_decode(file_get_contents('php://input'), true);
 
 $server_id = $_POST["server_id"];
 $Task = $_POST["Task"];
-chdir('C:\Users\waelb\AppData\Local\Programs\Python\Python310');
 if ($Task == "Connect") {
 	$username = $_POST["username"];
     $password = $_POST["password"];
