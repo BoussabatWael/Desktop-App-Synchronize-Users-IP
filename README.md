@@ -8,6 +8,6 @@ operating systems and their system versions, if OS is supported then it will exe
 # Sync.py 
 is the main file of the application.
 # firewall.py 
-is the script that manage and sercure servers it contains all functions that can be executed on server
+is the script that manage and sercure servers, it contains all functions that can be executed on servers.
 # networking.php 
 is the middleware userd to call the firewall script from the desktop app.
